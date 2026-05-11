@@ -7,6 +7,7 @@ public class InsertionSort {
                 nums[j+1]=nums[j];
                 j=j-1;
             }
+            // assume..... like swapped the value with key 
             nums[j+1]=key;
         }
     }
