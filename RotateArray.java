@@ -1,4 +1,5 @@
 public class RotateArray {
+    // function to reverse array.
     public static void reverse(int nums[], int start, int end){
         while(start<end){
             int temp=nums[start];
