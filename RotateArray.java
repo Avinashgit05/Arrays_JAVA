@@ -16,7 +16,7 @@ public class RotateArray {
         reverse(nums, k, nums.length-1);
 
      }
-
+    //  BruteForce Approach
     public static void rotateBruteForce(int[] nums, int k) {
         for(int i=0;i<k;i++){
             int lastEle=nums[nums.length-1];
