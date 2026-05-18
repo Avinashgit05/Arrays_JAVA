@@ -34,6 +34,7 @@ public class RotateArray {
             System.out.print(num+" ");
         }
         System.out.println();
+        // BruteForce call.
         rotateBruteForce(nums, k);
         for(int num :nums){
             System.out.print(num+" ");
