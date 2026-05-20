@@ -36,10 +36,10 @@ public class RotateArray {
         }
         System.out.println();
         // BruteForce call.
-        rotateBruteForce(nums, k);
-        for(int num :nums){
-            System.out.print(num+" ");
-        }
+        // rotateBruteForce(nums, k);
+        // for(int num :nums){
+        //     System.out.print(num+" ");
+        // }
     }
     
 }
