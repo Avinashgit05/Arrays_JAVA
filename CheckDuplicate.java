@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class CheckSingleNumber {
+public class CheckDuplicate {
     public static boolean isDistinct(int[] arr) {
         HashMap<Integer, Boolean> map=new HashMap<>();
         for(int val : arr){
