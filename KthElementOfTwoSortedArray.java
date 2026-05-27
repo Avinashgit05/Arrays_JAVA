@@ -14,11 +14,11 @@ public class KthElementOfTwoSortedArray {
                 result[l++]=b[j++];
             }
         }
-        // if the element left in a then insert
+        // if the element left in array a then insert
         while(i<m){
             result[l++]=a[i++];
         }
-        // if the element left in b then insert
+        // if the element left in array b then insert
         while(j<n){
             result[l++]=b[j++];
         }
