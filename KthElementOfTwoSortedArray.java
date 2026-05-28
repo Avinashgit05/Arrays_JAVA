@@ -29,6 +29,7 @@ public class KthElementOfTwoSortedArray {
         int a[] = {2, 3, 6, 7, 9};
         int b[] = {1, 4, 8, 10};
         int k = 5;
+        //  to print the output
         System.out.println(kthElement(a, b, k));
     }
 }
