@@ -6,7 +6,7 @@ public class MinimumIncrementTomakeArrayUnique {
         // sort the array to find the difference 
         Arrays.sort(nums);
         for(int i=1; i<nums.length;i++){
-            // check whether the prvious element is greater than the current 
+            // check whether the prvious element is greater than the current
             if(nums[i-1]>=nums[i]){
                 int inc=nums[i-1]+1-nums[i];
                 nums[i]=nums[i-1]+1;
